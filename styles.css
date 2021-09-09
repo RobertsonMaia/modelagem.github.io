@@ -1,0 +1,33 @@
+body{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: #0000002a;
+}
+
+footer{
+  margin-top: 50px;
+  text-align: center;
+}
+
+a:hover {
+  cursor: pointer;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+.balls {
+  width: 3px;
+  height: 3px;
+  border-radius: 2px;
+  background-color: #5454C5;
+  margin: 5px 5px;
+}
+
+.heart-icon{
+ width: 15px;
+}
